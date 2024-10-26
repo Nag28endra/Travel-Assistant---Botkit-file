@@ -1,0 +1,40 @@
+{
+    "server": {
+        "port": 8002
+    },
+    "app": {
+        "apiPrefix" : "/",
+        "url": "https://f74e-183-82-108-162.ngrok-free.app"
+        
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "botName":"Travel Assistant",
+        "botId":"st-8189a58a-5f32-5f7c-94ce-297d8aeef146",
+        "apikey": "cr4dp6BOeUqHJf5OJiAujiA/AYObDPK79L/RtTmAkMs=",
+        "appId": "cs-d3ac3b06-4905-5d73-94c7-5a829035333a"
+    },
+    "jwt": {
+        "jwtAlgorithm": "HS256",
+        "jwt-expiry": 60,
+        "st-67890":{
+            "jwtAlgorithm": "HS512",
+            "jwt-expiry": 60
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": true
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
