@@ -7,9 +7,10 @@ var app    = new Application(null, config);
 var server = new Server(config, app);
 
 sdk.checkNodeVersion();
-//starting the server
-server.start();
 console.log('app.js file invoked');
+//starting the server
+console.log("@11 starting server...")
+server.start();
 sdk.registerBot(require('./FindAFlight.js'));
 sdk.registerBot(require('./SimpleConversationalBot.js'));
 sdk.registerBot(require('./SimpleConversationalBotWithMultipleBotId.js'));
